@@ -21,7 +21,7 @@ cp -r ./assets/*.png "$target_dir"
 banner "🔧 Updating configuration files"
 configs=(
     "./config/fastfetch/config.jsonc"
-    "./config/hypr/hyprland.conf"
+    "./config/hypr/hyprpaper.conf"
 )
 
 updated_configs=()
