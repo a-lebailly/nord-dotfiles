@@ -1,0 +1,101 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/alex/.local/share/dotfiles/nord-theme.png",
+    "width": 30,
+    "height": 15,
+    "padding": {
+      "top": 2
+    }
+  },
+  "display": {
+    "color": {
+      "keys": "blue",
+      "title": "yellow"
+    },
+    "separator": "➜   " 
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": "                                    {6}{7}{8}"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────────────────────────────┐" // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "key": "    󰣇 OS           ",
+      "keyColor": "blue",
+      "type": "os"
+    },
+    {
+      "key": "    󰍹 Display      ",
+      "keyColor": "cyan",
+      "type": "display"
+    },
+    {
+      "key": "    󰌢 Machine      ",
+      "keyColor": "cyan",
+      "type": "host"
+    },
+    {
+      "key": "     Kernel       ",
+      "keyColor": "blue",
+      "type": "kernel"
+    },
+    {
+      "key": "     Packages     ",
+      "keyColor": "cyan",
+      "type": "packages"
+    },
+    {
+      "key": "     WM           ",
+      "keyColor": "blue",
+      "type": "wm"
+    },
+    {
+      "key": "     Terminal     ",
+      "keyColor": "cyan",
+      "type": "terminal"
+    },
+    {
+      "key": "     Font         ",
+      "keyColor": "blue",
+      "type": "terminalfont"
+    },
+    {
+      "key": "    󰻠 CPU          ",
+      "keyColor": "cyan",
+      "type": "cpu"
+    },
+    {
+      "key": "    󰍛 GPU          ",
+      "keyColor": "blue",
+      "type": "gpu"
+    },
+    {
+      "key": "    󰑭 Memory       ",
+      "keyColor": "cyan",
+      "type": "memory"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────────────────────────────┘" // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 34,
+      "symbol": "circle",
+      "block": {
+        "width": 10
+      }
+    }
+  ]
+}
