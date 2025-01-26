@@ -1,0 +1,23 @@
+{
+    "layer": "top",
+    "height": 30,
+    "modules-left": ["workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "network"],
+    "clock": {
+        "format": "{:%H:%M:%S}",
+        "tooltip": false
+    },
+    "cpu": {
+        "format": "CPU: {usage}%"
+    },
+    "memory": {
+        "format": "RAM: {used} / {total}"
+    },
+    "network": {
+        "format": "{ifname}: {ipaddr}"
+    },
+    "workspaces": {
+        "disable-scroll": true
+    }
+}

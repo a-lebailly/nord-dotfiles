@@ -10,6 +10,7 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - **rofi**: `Done`
 - **cava**: `Done`
 - **btop++**: `Done`
+- **waybar**: `WIP`
 
 ### Requirements 📦
 - `hypr`: `Breeze Cursors` and `./assets/wallpaper.png`.
@@ -18,6 +19,7 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - `rofi`: *No requirements*.
 - `cava`: *No requirements*.
 - `btop++`: *No requirements*.
+- `waybar`: `./fonts/CaskaydiaCoveNerdFont`.
 
 ### Installation 🚀
 ```bash
