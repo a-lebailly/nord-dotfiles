@@ -67,14 +67,13 @@ for config_dir in $config_dirs; do
         config_name=$(basename "$config_dir")
         config_target="$HOME/.config/$config_name"
 
-        if [[ -d "$config_target" && ! -L "$config_target" ]]; then
-            echo -e "🔄 Existing directory $config_target found. Renaming to $config_target-backup."
-            mv "$config_target" "$config_target-backup"
-        fi
-
         read -p "🔄 Do you want to enable the configuration for $config_name? (y/n): " choice
         case "$choice" in
             y|Y)
+                if [[ -d "$config_target" && ! -L "$config_target" ]]; then
+                    echo -e "🔄 Existing directory $config_target found. Renaming to $config_target-backup."
+                    mv "$config_target" "$config_target-backup"
+                fi
                 echo -e "✅ Creating a symbolic link for $config_name..."
                 ln -sfn "$(pwd)/config/$config_name" "$config_target"
                 linked_configs+=("$config_name")
