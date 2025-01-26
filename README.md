@@ -8,11 +8,16 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - **hypr**: `Done`
 - **fastfetch**: `Done`
 - **rofi**: `Done`
+- **cava**: `WIP`
+- **btop++**: `Done`
 
 ### Requirements 📦
 - `hypr`: `Breeze Cursors` and `./assets/wallpaper.png`.
 - `kitty`: `./fonts/CaskaydiaCoveNerdFont`
 - `fastfetch`: `./assets/nord-theme.png`
+- `rofi`: *No requirements*.
+- `cava`: *No requirements*.
+- `btop++`: *No requirements*.
 
 ### Installation 🚀
 ```bash
