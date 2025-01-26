@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/nord-theme-transparent.png" width="200" height="250">
+  <img src="./assets/repository-images/nord-theme-transparent.png" width="200" height="250">
 </div>
 
 # My Dotfiles
@@ -8,7 +8,7 @@ This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and 
 This repository include an installation script which will help you to install the configurations you want.  
 
 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](./assets/repository-images/screenshot.png)
 
 ## Table of Contents 📚
 - [Features](#features-)
