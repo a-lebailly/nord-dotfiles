@@ -25,17 +25,17 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - And many other external configurations (*see below*)
 
 ## Requirements 📦
-| **Name**  | **Sources**                                          | **Requirements**                                                                                        |
-|-----------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| btop++    | [GitHub](https://github.com/aristocratos/btop)       | *No requirements*                                                                                       |
-| cava      | [GitHub](https://github.com/karlstav/cava)           | *No requirements*                                                                                       |
-| fastfetch | [GitHub](https://github.com/fastfetch-cli/fastfetch) | `./assets/nord-theme.png`                                                                               |
-| hypr      | [GitHub](https://github.com/hyprwm/Hyprland)         | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/nord-theme.png` |
-| kitty     | [GitHub](https://github.com/kovidgoyal/kitty)        | `./fonts/CaskaydiaCoveNerdFont`                                                                         |
-| pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | *Kitty and its configuration*                                                                           |
-| rofi      | [GitHub](https://github.com/davatorium/rofi)         | `./fonts/UbuntuNerdFont`                                                                                |
-| tty-clock | [GitHub](https://github.com/xorg62/tty-clock)        | *Kitty and its configuration*                                                                           |
-| waybar    | [GitHub](https://github.com/Alexays/Waybar)          | `./fonts/UbuntuNerdFont`                                                                                |
+| **Name**  | **Sources**                                          | **Requirements**                                                                                       |
+|-----------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| btop++    | [GitHub](https://github.com/aristocratos/btop)       | *No requirements*                                                                                      |
+| cava      | [GitHub](https://github.com/karlstav/cava)           | *No requirements*                                                                                      |
+| fastfetch | [GitHub](https://github.com/fastfetch-cli/fastfetch) | `./assets/nord-theme.png`                                                                              |
+| hypr      | [GitHub](https://github.com/hyprwm/Hyprland)         | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/wallpaper.png` |
+| kitty     | [GitHub](https://github.com/kovidgoyal/kitty)        | `./fonts/CaskaydiaCoveNerdFont`                                                                        |
+| pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | *Kitty and its configuration*                                                                          |
+| rofi      | [GitHub](https://github.com/davatorium/rofi)         | `./fonts/UbuntuNerdFont`                                                                               |
+| tty-clock | [GitHub](https://github.com/xorg62/tty-clock)        | *Kitty and its configuration*                                                                          |
+| waybar    | [GitHub](https://github.com/Alexays/Waybar)          | `./fonts/UbuntuNerdFont`                                                                               |
 
 ## Installation 🚀
 You can install the configurations manually or use the automated installation script.
