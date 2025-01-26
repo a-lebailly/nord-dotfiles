@@ -7,7 +7,7 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - **kitty**: `Done`
 - **hypr**: `Done`
 - **fastfetch**: `Done`
-- **rofi**: `WIP`
+- **rofi**: `Done`
 
 ### Requirements 📦
 - `hypr`: `Breeze Cursors` and `./assets/wallpaper.png`.
@@ -46,7 +46,11 @@ cp -r ./config/fastfetch/ ~/.config/
 ...
 ```
 
+### Documentation 📖
+- **rofi**: Execute `rofi -show drun -theme ~/.config/rofi/config.rasi` to open the application launcher.
+
 ### Screenshots 📸
+
 ...
 
 ### Contributing 🤝
