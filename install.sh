@@ -38,8 +38,8 @@ fi
 
 banner "🔧 Updating configuration files"
 configs=(
-    "./config/fastfetch/config.jsonc"
-    "./config/hypr/hyprpaper.conf"
+    "./.config/fastfetch/config.jsonc"
+    "./.config/hypr/hyprpaper.conf"
 )
 
 updated_configs=()
@@ -57,7 +57,7 @@ for config in "${configs[@]}"; do
 done
 
 banner "🛠️ Setting up configurations"
-config_dirs=("./config/*")
+config_dirs=("./.config/*")
 
 linked_configs=()
 skipped_links=()
@@ -75,7 +75,7 @@ for config_dir in $config_dirs; do
                     mv "$config_target" "$config_target-backup"
                 fi
                 echo -e "✅ Creating a symbolic link for $config_name..."
-                ln -sfn "$(pwd)/config/$config_name" "$config_target"
+                ln -sfn "$(pwd)/.config/$config_name" "$config_target"
                 linked_configs+=("$config_name")
                 ;;
             n|N)
