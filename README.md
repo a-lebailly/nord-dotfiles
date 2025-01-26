@@ -1,7 +1,8 @@
 # My Dotfiles
 
 This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and are designed to be simple and easy to use.  
-Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-and-palettes).
+This repository include an installation script which will help you to install the configurations you want.  
+However, you can also install the configurations manually.
 
 ## Table of Contents 📚
 - [Features](#features-)
@@ -13,16 +14,20 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - [Contributing](#contributing-)
 
 ## Features 🎨
-- **btop++**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/btop)
-- **cava**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/cava)
-- **fastfetch**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/fastfetch)
-- **hypr**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)
-- **kitty**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)
-- **pipe.sh**: A simple command to display pipe.sh with the Nord Theme ([see documentation](#documentation-)).
-- **rofi**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/rofi)
-- **tty-clock**: A simple command to display tty-clock with the Nord Theme ([see documentation](#documentation-)).
-- **waybar**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/waybar)
-- And many other external configurations (*see below*)
+
+| **Name**  | **Configuration Folder**                                                                  |
+|-----------|-------------------------------------------------------------------------------------------|
+| btop++    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/btop)      |
+| cava      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/cava)      |
+| fastfetch | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/fastfetch) |
+| hypr      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)      |
+| kitty     | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)     |
+| pipe.sh   | [Configuration Folder](#documentation-)                                                   |
+| rofi      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/rofi)      |
+| tty-clock | [Configuration Folder](#documentation-)                                                   |
+| waybar    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/waybar)    |
+
+*You can find many others external configuration based on Nord Theme [here](#external-configurations-).*
 
 ## Requirements 📦
 | **Name**  | **Sources**                                          | **Requirements**                                                                                       |
@@ -32,22 +37,21 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 | fastfetch | [GitHub](https://github.com/fastfetch-cli/fastfetch) | `./assets/nord-theme.png`                                                                              |
 | hypr      | [GitHub](https://github.com/hyprwm/Hyprland)         | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/wallpaper.png` |
 | kitty     | [GitHub](https://github.com/kovidgoyal/kitty)        | `./fonts/CaskaydiaCoveNerdFont`                                                                        |
-| pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | *Kitty and its configuration*                                                                          |
+| pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | Kitty and its configuration                                                                            |
 | rofi      | [GitHub](https://github.com/davatorium/rofi)         | `./fonts/UbuntuNerdFont`                                                                               |
-| tty-clock | [GitHub](https://github.com/xorg62/tty-clock)        | *Kitty and its configuration*                                                                          |
+| tty-clock | [GitHub](https://github.com/xorg62/tty-clock)        | Kitty and its configuration                                                                            |
 | waybar    | [GitHub](https://github.com/Alexays/Waybar)          | `./fonts/UbuntuNerdFont`                                                                               |
 
 ## Installation 🚀
-You can install the configurations manually or use the automated installation script.
+You can install the configurations using the automated installation script or manually.
 
-### Clone the repository:
+### Clone the repository :
 ```bash
 git clone https://github.com/a-lebailly/dotfiles.git && cd dotfiles
 ```
 
 ### Automated installation :  
 The automated installation script will ask you which configuration you want to install.  
-The script will prompt you to install each configuration one by one.
 ```bash
 chmod +x install.sh
 ./install.sh
@@ -81,17 +85,21 @@ cp -r ./fonts/CaskaydiaCoveNerdFont ~/.local/share/fonts/
    ```
 
 ## External configurations 🌐
-- **firefox**: Install the Nord Theme [here](https://addons.mozilla.org/fr/firefox/addon/nord-firefox/).
-- **obsidian**: Install the Nord Theme [here](https://github.com/insanum/obsidian_nord).
-- **vim/neovim**: Install the Nord Theme [here](https://github.com/nordtheme/vim).
-- **jetbrains**: Install the Nord Theme [here](https://plugins.jetbrains.com/plugin/10321-nord).
-- **vscode**: Install the Nord Theme [here](https://github.com/nordtheme/visual-studio-code).
 
-You can find more ports of the Nord Theme [here](https://www.nordtheme.com/ports).
+| Name       | Configuration URL                                                              |
+|------------|--------------------------------------------------------------------------------|
+| firefox    | [Configuration URL](https://addons.mozilla.org/fr/firefox/addon/nord-firefox/) |
+| obsidian   | [Configuration URL](https://github.com/insanum/obsidian_nord)                  |
+| vim/neovim | [Configuration URL](https://github.com/nordtheme/vim)                          |
+| jetbrains  | [Configuration URL](https://plugins.jetbrains.com/plugin/10321-nord)           |
+| vscode     | [Configuration URL](https://github.com/nordtheme/visual-studio-code)           |
+
+*You can find more ports of the Nord Theme [here](https://www.nordtheme.com/ports).*
 
 ## Screenshots 📸
 
 ...
 
 ## Contributing 🤝
-Feel free to contribute to this project by opening an issue or a pull request.
+Feel free to contribute to this project by opening an issue or a pull request.  
+Before any contribution, please check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-and-palettes).
