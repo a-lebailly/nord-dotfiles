@@ -30,7 +30,7 @@ skipped_configs=()
 for config in "${configs[@]}"; do
     if [[ -f "$config" ]]; then
         echo -e "⚙️  Updating $config..."
-        sed -i "s|../../assets|$target_dir|g" "$config"
+        sed -i "s|\$HOME/.local/share/dotfiles|$target_dir|g" "$config"
         updated_configs+=("$config")
     else
         echo -e "❌ File $config not found, skipping."
