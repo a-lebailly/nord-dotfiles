@@ -1,0 +1,4 @@
+default_profile = "nord-theme"
+
+[profiles.nord-theme]
+theme = "nord"

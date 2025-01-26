@@ -21,6 +21,7 @@ However, you can also install the configurations manually.
 | btop++    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/btop)      |
 | cava      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/cava)      |
 | fastfetch | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/fastfetch) |
+| harlequin | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/harlequin) |
 | hypr      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)      |
 | kitty     | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)     |
 | pipe.sh   | [See documentation](#documentation-)                                                      |
@@ -37,6 +38,7 @@ However, you can also install the configurations manually.
 | btop++    | [GitHub](https://github.com/aristocratos/btop)       | *No requirements*                                                                                      |
 | cava      | [GitHub](https://github.com/karlstav/cava)           | *No requirements*                                                                                      |
 | fastfetch | [GitHub](https://github.com/fastfetch-cli/fastfetch) | `./assets/nord-theme.png`                                                                              |
+| harlequin | [GitHub](https://github.com/tconbeer/harlequin)      | *No requirements*                                                                                      |
 | hypr      | [GitHub](https://github.com/hyprwm/Hyprland)         | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/wallpaper.png` |
 | kitty     | [GitHub](https://github.com/kovidgoyal/kitty)        | `./fonts/CaskaydiaCoveNerdFont`                                                                        |
 | pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | Kitty and its configuration                                                                            |
