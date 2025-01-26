@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img src="./assets/nord-theme.png" width="200" height="200">
+</div>
+
 # My Dotfiles
 
 This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and are designed to be simple and easy to use.  
@@ -16,21 +21,19 @@ However, you can also install the configurations manually.
 
 ## Features 🎨
 
-| **Name**  | **Configuration Folder**                                                                      |
-|-----------|-----------------------------------------------------------------------------------------------|
-| btop++    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/btop)          |
-| cava      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/cava)          |
-| fastfetch | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/fastfetch)     |
-| harlequin | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/harlequin)     |
-| hypr      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)          |
-| kitty     | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)         |
-| pipe.sh   | [See documentation](#documentation-)                                                          |
-| posting   | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/posting)       |
-| rofi      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/rofi)          |
-| starship  | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/starship.toml) |
-| superfile | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/superfile)     |
-| tty-clock | [See documentation](#documentation-)                                                          |
-| waybar    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/waybar)        |
+| **Name**  | **Configuration Folder**                                                                  |
+|-----------|-------------------------------------------------------------------------------------------|
+| btop++    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/btop)      |
+| cava      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/cava)      |
+| fastfetch | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/fastfetch) |
+| harlequin | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/harlequin) |
+| hypr      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)      |
+| kitty     | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)     |
+| pipe.sh   | [See documentation](#documentation-)                                                      |
+| rofi      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/rofi)      |
+| superfile | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/superfile) |
+| tty-clock | [See documentation](#documentation-)                                                      |
+| waybar    | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/waybar)    |
 
 *You can find many others external configuration based on Nord Theme [here](#external-configurations-).*
 
@@ -44,9 +47,7 @@ However, you can also install the configurations manually.
 | hypr      | [GitHub](https://github.com/hyprwm/Hyprland)         | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/wallpaper.png` |
 | kitty     | [GitHub](https://github.com/kovidgoyal/kitty)        | `./fonts/CaskaydiaCoveNerdFont`                                                                        |
 | pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | Kitty and its configuration                                                                            |
-| posting   | [GitHub](https://github.com/darrenburns/posting)     | *No requirements*                                                                                      |
 | rofi      | [GitHub](https://github.com/davatorium/rofi)         | `./fonts/UbuntuNerdFont`                                                                               |
-| starship  | [GitHub](https://github.com/starship/starship)       | *No Requirements**                                                                                     |
 | superfile | [GitHub](https://github.com/yorukot/superfile)       | *No requirements*                                                                                      |
 | tty-clock | [GitHub](https://github.com/xorg62/tty-clock)        | Kitty and its configuration                                                                            |
 | waybar    | [GitHub](https://github.com/Alexays/Waybar)          | `./fonts/UbuntuNerdFont`                                                                               |
