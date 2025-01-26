@@ -23,6 +23,7 @@ configuration {
   show-icons:                 true;
   display-drun:               " ";
 	drun-display-format:        "{name}";
+  font:                       "Ubuntu Nerd Font 12";
 }
 
 /*****----- Main Window -----*****/

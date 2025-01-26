@@ -1,30 +1,57 @@
 * {
-    font-family: "CaskaydiaCove Nerd Font", monospace;
-    font-size: 12px;
-    color: #D8DEE9; /* Nord4 */
-    background: #2E3440; /* Nord0 */
+  font-family: "Ubuntu Nerd Font", monospace;
+  font-size: 12px;
+  color: #D8DEE9; /* Nord4 */
+  background: #2E3440; /* Nord0 */
+  margin: 0;
+  padding: 0;
 }
 
 #workspaces button {
-    background: #3B4252; /* Nord1 */
-    color: #D8DEE9; /* Nord4 */
-    padding: 5px;
-    margin: 2px;
-    border-radius: 5px;
+  background: #3B4252; /* Nord1 */
+  color: #D8DEE9; /* Nord4 */
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+  background: #81A1C1; /* Nord9 */
+  color: #2E3440; /* Nord0 */
 }
 
 #clock {
-    background: #81A1C1; /* Nord9 */
-    color: #2E3440; /* Nord0 */
-    padding: 5px;
-    border-radius: 5px;
+  background: #81A1C1; /* Nord9 */
+  color: #2E3440; /* Nord0 */
+  padding: 5px;
+  border-radius: 5px;
+  animation: pulse 5s infinite;
 }
 
-#cpu, #memory, #network {
-    background: #4C566A; /* Nord3 */
-    color: #ECEFF4; /* Nord6 */
-    padding: 5px;
-    border-radius: 5px;
-    margin: 0 5px;
+@keyframes pulse {
+  0% {
+    background-color: #81A1C1;
+  }
+  50% {
+    background-color: #88C0D0;
+  }
+  100% {
+    background-color: #81A1C1;
+  }
+}
+
+#cpu, #memory, #network, #battery {
+  background: #4C566A; /* Nord3 */
+  color: #ECEFF4; /* Nord6 */
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#battery {
+  background: #A3BE8C; /* Nord14 */
+  color: #2E3440; /* Nord0 */
 }
 

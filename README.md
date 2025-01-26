@@ -30,8 +30,8 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 | fastfetch | `./assets/nord-theme.png`                                                                               |
 | hypr      | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/nord-theme.png` |
 | kitty     | `./fonts/CaskaydiaCoveNerdFont`                                                                         |
-| rofi      | *No requirements*                                                                                       |
-| waybar    | *No requirements*                                                                                       |
+| rofi      | `./fonts/UbuntuNerdFont`                                                                                |
+| waybar    | `./fonts/UbuntuNerdFont`                                                                                |
 
 ### Installation 🚀
 You can install the configurations manually or use the automated installation script.
