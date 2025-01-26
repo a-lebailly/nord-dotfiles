@@ -1,0 +1,10 @@
+[color]
+background = '#2E3440'   # Nord0
+
+gradient = 1
+
+gradient_color_1 = '#8FBCBB'  # Nord7 (Cyan Accent)
+gradient_color_2 = '#88C0D0'  # Nord8 (Blue Accent)
+gradient_color_3 = '#81A1C1'  # Nord9 (Secondary Blue Accent)
+gradient_color_4 = '#5E81AC'  # Nord10 (Dark Blue Accent)
+

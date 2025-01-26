@@ -8,7 +8,7 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - **hypr**: `Done`
 - **fastfetch**: `Done`
 - **rofi**: `Done`
-- **cava**: `WIP`
+- **cava**: `Done`
 - **btop++**: `Done`
 
 ### Requirements 📦
