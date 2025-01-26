@@ -28,7 +28,7 @@ fi
 mkdir -p "$fonts_dir"
 
 banner "📦 Copying fonts to $fonts_dir"
-cp -r ./fonts/**/*.ttf "$fonts_dir"
+cp -r ./fonts/* "$fonts_dir"
 fc-cache -f -v
 if [[ $? -eq 0 ]]; then
     echo -e "✔️  Fonts have been installed successfully in $fonts_dir."
