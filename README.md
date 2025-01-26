@@ -1,6 +1,5 @@
-
 <div align="center">
-  <img src="./assets/nord-theme.png" width="200" height="200">
+  <img src="./assets/nord-theme-transparent.png" width="200" height="200">
 </div>
 
 # My Dotfiles
