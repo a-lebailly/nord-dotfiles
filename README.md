@@ -25,6 +25,7 @@ However, you can also install the configurations manually.
 | hypr      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)          |
 | kitty     | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)         |
 | pipe.sh   | [See documentation](#documentation-)                                                          |
+| posting   | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/posting)       |
 | rofi      | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/rofi)          |
 | starship  | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/starship.toml) |
 | superfile | [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/superfile)     |
@@ -43,6 +44,7 @@ However, you can also install the configurations manually.
 | hypr      | [GitHub](https://github.com/hyprwm/Hyprland)         | [Breeze Cursor](https://github.com/KDE/breeze/tree/master/cursors/Breeze) and `./assets/wallpaper.png` |
 | kitty     | [GitHub](https://github.com/kovidgoyal/kitty)        | `./fonts/CaskaydiaCoveNerdFont`                                                                        |
 | pipe.sh   | [GitHub](https://github.com/pipeseroni/pipes.sh)     | Kitty and its configuration                                                                            |
+| posting   | [GitHub](https://github.com/darrenburns/posting)     | *No requirements*                                                                                      |
 | rofi      | [GitHub](https://github.com/davatorium/rofi)         | `./fonts/UbuntuNerdFont`                                                                               |
 | starship  | [GitHub](https://github.com/starship/starship)       | *No Requirements**                                                                                     |
 | superfile | [GitHub](https://github.com/yorukot/superfile)       | *No requirements*                                                                                      |
