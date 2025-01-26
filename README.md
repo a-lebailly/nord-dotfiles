@@ -1,6 +1,6 @@
 # My Dotfiles
 
-This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and are designed to be simple and easy to use.
+This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and are designed to be simple and easy to use.  
 Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-and-palettes).
 
 ### Roadmap 🗺️
