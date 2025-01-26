@@ -18,7 +18,9 @@ Check the Nord Theme color palette [here](https://www.nordtheme.com/docs/colors-
 - **fastfetch**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/fastfetch)
 - **hypr**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/hypr)
 - **kitty**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/kitty)
+- **pipe.sh**: A simple command to display pipe.sh with the Nord Theme ([see documentation](#documentation-)).
 - **rofi**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/rofi)
+- **tty-clock**: A simple command to display tty-clock with the Nord Theme ([see documentation](#documentation-)).
 - **waybar**: [Configuration Folder](https://github.com/a-lebailly/dotfiles/tree/main/config/waybar)
 - And many other external configurations (*see below*)
 
@@ -66,14 +68,17 @@ cp -r ./fonts/CaskaydiaCoveNerdFont ~/.local/share/fonts/
 ```
 
 ### Documentation 📖
+- **pipe.sh**: Execute `pipes.sh -p 5 -c 4 -f 100` or add this alias to your `.bashrc` or `.zshrc` file.
+   ```bash
+   alias pipesh="pipes.sh -p 5 -c 4 -f 100"
+   ```
 - **rofi**: Execute `rofi -show drun -theme ~/.config/rofi/config.rasi` to open rofi and apply the style.
-
-### External configurations 🌐
 - **tty-clock**: Execute `tty-clock -c -C 6` or add this alias to your `.bashrc` or `.zshrc` file.
    ```bash
-   # E.g. Add the alias to your .bashrc or .zshrc
    alias clock="tty-clock -c -C 6"
    ```
+
+### External configurations 🌐
 - **firefox**: Install the Nord Theme [here](https://addons.mozilla.org/fr/firefox/addon/nord-firefox/).
 - **obsidian**: Install the Nord Theme [here](https://github.com/insanum/obsidian_nord).
 - **vim/neovim**: Install the Nord Theme [here](https://github.com/nordtheme/vim).
