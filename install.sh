@@ -18,6 +18,24 @@ mkdir -p "$target_dir"
 banner "🚀 Copying assets to $target_dir"
 cp -r ./assets/*.png "$target_dir"
 
+read -p "📂 Enter the directory where you want to store fonts (e.g., ~/.local/share/fonts/ttf): " fonts_dir
+if [[ -z "$fonts_dir" ]]; then
+    fonts_dir="$HOME/.local/share/fonts/ttf"
+else
+    fonts_dir="${fonts_dir/#\~/$HOME}"
+fi
+
+mkdir -p "$fonts_dir"
+
+banner "📦 Copying fonts to $fonts_dir"
+cp -r ./fonts/**/*.ttf "$fonts_dir"
+fc-cache -f -v
+if [[ $? -eq 0 ]]; then
+    echo -e "✔️  Fonts have been installed successfully in $fonts_dir."
+else
+    echo -e "❌ Failed to update font cache. Check your font installation."
+fi
+
 banner "🔧 Updating configuration files"
 configs=(
     "./config/fastfetch/config.jsonc"
@@ -47,11 +65,18 @@ skipped_links=()
 for config_dir in $config_dirs; do
     if [[ -d "$config_dir" ]]; then
         config_name=$(basename "$config_dir")
+        config_target="$HOME/.config/$config_name"
+
+        if [[ -d "$config_target" && ! -L "$config_target" ]]; then
+            echo -e "🔄 Existing directory $config_target found. Renaming to $config_target-backup."
+            mv "$config_target" "$config_target-backup"
+        fi
+
         read -p "🔄 Do you want to enable the configuration for $config_name? (y/n): " choice
         case "$choice" in
             y|Y)
                 echo -e "✅ Creating a symbolic link for $config_name..."
-                ln -sfn "$(pwd)/config/$config_name" "$HOME/.config/$config_name"
+                ln -sfn "$(pwd)/config/$config_name" "$config_target"
                 linked_configs+=("$config_name")
                 ;;
             n|N)
@@ -68,6 +93,7 @@ done
 
 banner "🎉 Installation complete"
 echo -e "✔️  Assets have been copied to $target_dir."
+echo -e "✔️  Fonts have been copied to $fonts_dir."
 echo -e "✔️  Configuration files have been updated."
 echo -e "✔️  Symbolic links have been created for selected configurations."
 
