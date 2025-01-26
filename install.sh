@@ -16,7 +16,7 @@ fi
 mkdir -p "$target_dir"
 
 banner "🚀 Copying assets to $target_dir"
-cp -r ./assets/*.png "$target_dir"
+cp -r ./assets/images/*.png "$target_dir"
 
 read -p "📂 Enter the directory where you want to store fonts (e.g., ~/.local/share/fonts/ttf): " fonts_dir
 if [[ -z "$fonts_dir" ]]; then
