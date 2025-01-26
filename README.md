@@ -4,13 +4,14 @@ This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and 
 This repository include an installation script which will help you to install the configurations you want.  
 However, you can also install the configurations manually.
 
+![Screenshot](./assets/screenshot.png)
+
 ## Table of Contents 📚
 - [Features](#features-)
 - [Requirements](#requirements-)
 - [Installation](#installation-)
 - [Documentation](#documentation-)
 - [External configurations](#external-configurations-)
-- [Screenshots](#screenshots-)
 - [Contributing](#contributing-)
 
 ## Features 🎨
@@ -95,10 +96,6 @@ cp -r ./fonts/CaskaydiaCoveNerdFont ~/.local/share/fonts/
 | vscode     | [Configuration URL](https://github.com/nordtheme/visual-studio-code)           |
 
 *You can find more ports of the Nord Theme [here](https://www.nordtheme.com/ports).*
-
-## Screenshots 📸
-
-...
 
 ## Contributing 🤝
 Feel free to contribute to this project by opening an issue or a pull request.  
