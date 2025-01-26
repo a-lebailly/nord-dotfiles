@@ -1,0 +1,253 @@
+# Credit to @elifouts (https://github.com/elifouts) for the original file
+# Original source file url : https://github.com/elifouts/Dotfiles/blob/main/.config/starship.toml
+
+add_newline = false
+
+format = """[](fg:#5e81ac)$os[](bg:#5e81ac fg:#81a1c1)$username[](bg:#81a1c1 fg:#88c0d0)$directory[ ](fg:#88c0d0)$git_branch$git_status$all$character"""
+
+[username]
+show_always = true
+format = '[$user ](bg:#81a1c1 fg:#3B4252)'
+disabled = false
+
+[os]
+disabled = false
+style = 'bg:#5e81ac fg:#3B4252'
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+
+[cmd_duration]
+format = "[$duration](fg:#8fbcbb)"
+
+[directory]
+format = "[$path](bg:#88c0d0 fg:#3B4252)"
+truncation_length = 2
+truncation_symbol = "…/"
+
+[character]
+success_symbol = "[](bold fg:#81a1c1)"
+error_symbol = "[✗](bold fg:#BF616A)"
+disabled = false
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Scripts" = "󰲋 "
+
+[fossil_branch]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[git_branch]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+style = 'fg:#81a1c1' 
+
+[git_commit]
+tag_symbol = '  '
+format = '[$symbol($version)]($style)'
+
+[git_status]
+style = 'fg:#d08770'
+
+[aws]
+symbol = "   "
+format = '[$symbol($version)]($style)'
+
+[buf]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[c]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[cmake]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[conda]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[crystal]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[dart]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[docker_context]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[elixir]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[elm]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[fennel]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[golang]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[guix_shell]
+symbol = "   "
+format = '[$symbol($version)]($style)'
+
+[haskell]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[haxe]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[hg_branch]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[hostname]
+ssh_symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[java]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[julia]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[kotlin]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[lua]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[memory_usage]
+symbol = " 󰍛 "
+format = '[$symbol($version)]($style)'
+
+[meson]
+symbol = " 󰔷 "
+format = '[$symbol($version)]($style)'
+
+[nim]
+symbol = " 󰆥 "
+format = '[$symbol($version)]($style)'
+
+[nix_shell]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[nodejs]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[ocaml]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[package]
+symbol = " 󰏗 "
+format = '[$symbol($version)]($style)'
+
+[perl]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[php]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[pijul_channel]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[python]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[rlang]
+symbol = " 󰟔 "
+format = '[$symbol($version)]($style)'
+
+[ruby]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[rust]
+symbol = " 󱘗 "
+format = '[$symbol($version)]($style)'
+
+[scala]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[swift]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[zig]
+symbol = "  "
+format = '[$symbol($version)]($style)'
+
+[gradle]
+symbol = "  "
+format = '[$symbol($version)]($style)'
