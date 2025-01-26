@@ -1,19 +1,33 @@
 * {
   font-family: "Ubuntu Nerd Font", monospace;
-  font-size: 12px;
   color: #D8DEE9; /* Nord4 */
-  background: #2E3440; /* Nord0 */
+  background: transparent;
   margin: 0;
   padding: 0;
 }
 
+#workspaces {
+  background-color: rgba(46, 52, 64, 0.8); /* Nord0 avec transparence */
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
 #workspaces button {
-  background: #3B4252; /* Nord1 */
+  background: transparent;
   color: #D8DEE9; /* Nord4 */
   padding: 5px;
-  margin: 2px;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+#workspaces button:first-child {
+  margin-left: 20px;
+}
+
+#workspaces button:last-child {
+  margin-right: 20px;
 }
 
 #workspaces button:hover {
@@ -54,4 +68,3 @@
   background: #A3BE8C; /* Nord14 */
   color: #2E3440; /* Nord0 */
 }
-
