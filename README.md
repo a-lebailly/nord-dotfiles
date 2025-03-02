@@ -61,22 +61,21 @@ You can install the configurations using the automated installation script or ma
 git clone https://github.com/a-lebailly/nord-dotfiles.git && cd dotfiles
 ```
 
-### Automated installation :  
-The automated installation script will ask you which configuration you want to install.  
+### Copy the desired configurations files :
+For example, if you want to install the `kitty` configuration, you can copy the configuration file to your home directory.
 ```bash
-chmod +x install.sh
-./install.sh
+cp -r .config/kitty/ ~/.config/
 ```
 
 ## Documentation 📖
 - **pipe.sh**: Execute `pipes.sh -p 5 -c 4 -f 100` or add this alias to your `.bashrc` or `.zshrc` file.
    ```bash
-   alias pipesh="pipes.sh -p 5 -c 4 -f 100"
+   echo alias pipesh="pipes.sh -p 5 -c 4 -f 100" > ~/.bashrc # or ~/.zshrc
    ```
 - **rofi**: Execute `rofi -show drun -theme ~/.config/rofi/config.rasi` to open rofi and apply the style.
 - **tty-clock**: Execute `tty-clock -c -C 6` or add this alias to your `.bashrc` or `.zshrc` file.
    ```bash
-   alias clock="tty-clock -c -C 6"
+   echo alias clock="tty-clock -c -C 6" > ~/.bashrc # or ~/.zshrc
    ```
 
 ## External configurations 🌐
