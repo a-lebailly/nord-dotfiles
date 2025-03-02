@@ -54,7 +54,6 @@ This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and 
 | waybar    | [GitHub](https://github.com/Alexays/Waybar)          | [`./assets/fonts/UbuntuNerdFont`](https://github.com/a-lebailly/nord-dotfiles/tree/main/assets/fonts/UbuntuNerdFont)                                                                               |
 
 ## Installation 🚀
-You can install the configurations using the automated installation script or manually.
 
 ### Clone the repository :
 ```bash
