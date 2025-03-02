@@ -5,8 +5,6 @@
 # 🏔️ Nord Dotfiles
 
 This dotfiles are inspired by the [Nord Theme](https://www.nordtheme.com/), and are designed to be simple and easy to use.  
-This repository include an installation script which will help you to install the configurations you want.  
-
 
 ![Screenshot](./assets/repository-images/screenshot.png)
 
